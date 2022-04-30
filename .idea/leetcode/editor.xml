@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/AddTwoNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/doc/content/AddTwoNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/AddTwoNumbers.java" />
+              <option name="titleSlug" value="add-two-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/TwoSum.java">
           <value>
             <LeetcodeEditor>
