@@ -124,6 +124,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/ThreeSumClosest.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/doc/content/ThreeSumClosest.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com16" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/ThreeSumClosest.java" />
+              <option name="titleSlug" value="3sum-closest" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/TwoSum.java">
           <value>
             <LeetcodeEditor>
