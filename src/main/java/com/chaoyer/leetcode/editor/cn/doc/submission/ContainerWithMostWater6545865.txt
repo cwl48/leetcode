@@ -1,0 +1,33 @@
+func maxArea(height []int) int {
+	if len(height) < 2 {
+		return 0
+	}
+	var (
+		maxValue int               //最大的容积
+		arrMax   int               //数组中对应的最大值
+		left     int               //左边的游标
+		right    = len(height) - 1 //右边的游标
+	)
+
+	for right > left {
+		var val int
+		if height[right] < height[left] {
+			arrMax = height[right]
+		} else {
+			arrMax = height[left]
+		}
+		val = arrMax * (right - left)
+		if val > maxValue {
+			maxValue = val
+		}
+		if height[right] > height[left] {
+			left++
+		} else {
+			right--
+		}
+	}
+
+	return maxValue
+}
+//runtime:35 ms
+//memory:N/A
