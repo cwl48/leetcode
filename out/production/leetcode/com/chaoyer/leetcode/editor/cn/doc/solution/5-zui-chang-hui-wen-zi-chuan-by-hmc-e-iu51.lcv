@@ -1,0 +1,56 @@
+### 解题思路
+
+动态规划思路：P(i,j)表示以i,j为序号的字串，在P（i+1,j-1） && si == sj的时候，P（i,j）才为true;
+对于起点，每个P（i，i）肯定是true，以为P（i,i）表示第i位字符，只有一个字符肯定是回文串。
+代码实现我觉得比较难，具体看下面来理解。
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public String longestPalindrome(String s) {
+        int n = s.length();
+        //特判
+        if(n < 2) return s;
+        
+        //初始条件
+        int maxLen = 1;
+        int begin = 0;
+        boolean[][] dp = new boolean[n][n];
+        for(int i = 0;i < n;i++ ) {dp[i][i] = true;}
+        
+        //L表示字串长度，每一轮遍历的是长度相同，不同位置的字串。
+        for(int L = 2; L <= n; L++){
+            //遍历不同位置的字串
+            for(int i = 0;i < n;i++){
+                int j = L + i - 1;
+                //如果右指针超界了，就break
+                if(j >= n) break;
+                
+                //条件判断，两边字符相等，且中间的dp[i+1][j-1]也为ture,dp[i][j]才等于ture
+                if(s.charAt(j) != s.charAt(i)){
+                    dp[i][j] = false;
+                }else {
+                    //两者之间有一个，或者没有字符的情况,即右指针减左指针小于3，只要两边相等就为ture
+                    if(j - i < 3 ){
+                        dp[i][j] = true;
+                    }else{
+                        dp[i][j] = dp[i+1][j-1];
+                    }
+                }
+
+                //更新最长长度，和字串位置
+                if(dp[i][j] && j - i + 1 > maxLen){
+                    maxLen = j -  i + 1;
+                    begin = i;
+                }
+            }
+        }
+        return s.substring(begin,begin + maxLen);
+    }
+    
+}
+```
+
