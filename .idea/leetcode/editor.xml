@@ -80,6 +80,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/IsUniqueLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/doc/content/IsUniqueLcci.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com面试题 01.01" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/IsUniqueLcci.java" />
+              <option name="titleSlug" value="is-unique-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/doc/content/LetterCombinationsOfAPhoneNumber.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com17" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java" />
+              <option name="titleSlug" value="letter-combinations-of-a-phone-number" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/LongestPalindromicSubstring.java">
           <value>
             <LeetcodeEditor>
@@ -143,6 +165,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/TwoSum.java" />
               <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/ZigzagConversion.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/doc/content/ZigzagConversion.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com6" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/com/chaoyer/leetcode/editor/cn/ZigzagConversion.java" />
+              <option name="titleSlug" value="zigzag-conversion" />
             </LeetcodeEditor>
           </value>
         </entry>
