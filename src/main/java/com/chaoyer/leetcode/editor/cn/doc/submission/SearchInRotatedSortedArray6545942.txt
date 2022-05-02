@@ -1,0 +1,39 @@
+func search(nums []int, target int) int {
+   	arrLen := len(nums)
+
+	if arrLen == 0 {
+		return -1
+	}
+	low, high := 0, arrLen-1
+
+	var mid int
+	for low < high {
+		mid = (low + high) / 2
+		//在数组分段左边
+		if nums[mid] == target {
+			return mid
+		}
+		if nums[mid] >= nums[low] {
+			if target >= nums[low] && target < nums[mid] {
+				high = mid - 1
+			} else {
+				low = mid + 1
+			}
+		}
+
+		// 在数组分段右边
+		if nums[mid] <= nums[high] {
+			if target > nums[mid] && target <= nums[high] {
+				low = mid + 1
+			} else {
+				high = mid - 1
+			}
+		}
+	}
+	if nums[low] == target {
+		return low
+	}
+	return -1
+}
+//runtime:6 ms
+//memory:N/A
