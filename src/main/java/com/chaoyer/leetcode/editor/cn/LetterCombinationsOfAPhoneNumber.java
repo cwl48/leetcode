@@ -43,6 +43,12 @@ package com.chaoyer.leetcode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 解题思路:
+ * 排列组合
+ * 根据digits长度，给每个子串的元素进行排列组合
+ *
+ */
 public class LetterCombinationsOfAPhoneNumber {
     public static void main(String[] args) {
         Solution solution = new LetterCombinationsOfAPhoneNumber().new Solution();
